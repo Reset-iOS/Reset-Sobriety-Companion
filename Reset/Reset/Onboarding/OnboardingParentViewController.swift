@@ -4,10 +4,11 @@ class OnboardingParentViewController: UIPageViewController {
     
     private let onboardingData = [
         ("Reset", "Your digital sobriety companion", "onboarding1", ""),
-        ("Track your progress", "See how your journey is going", "onboarding2", ""),
-        ("Set reminders", "Stay on track with reminders", "onboarding3", ""),
-        ("Share your progress", "Share with friends", "onboarding4", ""),
-        ("Stay motivated", "Motivation through reminders", "onboarding5", "Get Started")
+        ("Track your progress", "Monitor your progress and celebrate milestones", "onboarding2", ""),
+        ("Set reminders", "Stay on track with reminders", "onboarding", ""),
+        ("Stay motivated", "Motivation through reminders", "onboarding5", "Get Started"),
+        ("Share your progress", " Share your journey with your network", "aa", "")
+        
     ]
     
     private lazy var pages: [OnboardingViewController] = {
